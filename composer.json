@@ -1,0 +1,21 @@
+{
+    "name": "gaiterjones/module-antispam",
+    "description": "Anti Spam Module",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "GAITERJONES",
+            "email": "info@gaiterjones.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Gaiterjones\\AntiSpam\\": ""
+        }
+    }
+}
